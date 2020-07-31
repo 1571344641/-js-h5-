@@ -1,0 +1,58 @@
+//左侧边栏
+/*
+  css样式梯队
+  1. 显示样式和位置
+  2. 宽 高 margin padding border
+  3. 文字样式
+  4. 背景样式
+  5. css样式
+*/
+aside.left-aside{
+  min-width: 320px;
+  max-width: 320px;
+  border-top: 10px solid #32c1fb;
+  padding: 20px 50px;
+  box-sizing: border-box;
+  border-top-left-radius: 10px;
+  h1{
+    padding: 20px 0;
+    height: 60px;
+    cursor: pointer;
+    img{
+      display: block;
+      height: 100%;
+    }
+  }
+  .site-info{
+    line-height: 1.6em;
+    padding-bottom: 20px;
+    font-size: 16px;
+    font-weight: 300;
+    color: #888;
+  }
+  .self-info{
+    ul{
+      li{
+        a{
+          &:hover{
+            background-color: rgb(245,245,245);
+          }
+          margin: 0 -50px;
+          padding: 16px 0 16px 50px;
+          display: block;
+          line-height: 1.2em;
+          font-size: 17px;
+          font-weight: bold;
+
+          i{
+            font-size: 12px;
+            line-height: 1.2em;
+            color: rgb(202,202,202);
+            vertical-align: middle;
+            cursor: pointer;
+          }
+        }
+      }
+    }
+  }
+}
