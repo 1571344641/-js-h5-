@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="aefb00b2-00ab-4d5a-89f2-6134f6b81870" name="默认的" comment="">
       <change beforePath="$PROJECT_DIR$/assecte/css/left-aside.css" beforeDir="false" afterPath="$PROJECT_DIR$/assecte/css/left-aside.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assecte/css/left-aside.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/assecte/css/left-aside.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assecte/css/left-aside.less" beforeDir="false" afterPath="$PROJECT_DIR$/assecte/css/left-aside.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
