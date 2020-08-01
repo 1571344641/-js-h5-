@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aefb00b2-00ab-4d5a-89f2-6134f6b81870" name="默认的" comment="" />
+    <list default="true" id="aefb00b2-00ab-4d5a-89f2-6134f6b81870" name="默认的" comment="">
+      <change beforePath="$PROJECT_DIR$/assecte/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/assecte/css/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assecte/css/index.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/assecte/css/index.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assecte/css/index.less" beforeDir="false" afterPath="$PROJECT_DIR$/assecte/css/index.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assecte/css/left-aside.css" beforeDir="false" afterPath="$PROJECT_DIR$/assecte/css/left-aside.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assecte/css/left-aside.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/assecte/css/left-aside.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assecte/css/left-aside.less" beforeDir="false" afterPath="$PROJECT_DIR$/assecte/css/left-aside.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +22,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1fPL5731Tvbr6IUr4zdkBCINo4L" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -47,6 +59,7 @@
       <workItem from="1596114605037" duration="841000" />
       <workItem from="1596119109383" duration="397000" />
       <workItem from="1596161637596" duration="11355000" />
+      <workItem from="1596245270878" duration="5929000" />
     </task>
     <servers />
   </component>
