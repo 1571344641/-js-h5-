@@ -123,4 +123,33 @@ aside.left-aside .after-a::after {
   bottom: 0;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
+aside.left-aside .search {
+  padding: 30px 0;
+}
+aside.left-aside .search h3 {
+  margin-bottom: 16px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #333;
+}
+aside.left-aside .search .search-a div {
+  position: relative;
+}
+aside.left-aside .search .search-a div i {
+  position: absolute;
+  content: "";
+  top: 8px;
+  left: 6px;
+  font-size: 18px;
+  font-weight: 900;
+  color: #cccccc;
+}
+aside.left-aside .search .search-a div .search-b {
+  padding: 7px 8px 7px 26px;
+  line-height: 20px;
+  border: 2px solid #e5e5e5;
+  font-size: 14px;
+  color: #999;
+  background: #fff;
+}
 /*# sourceMappingURL=left-aside.css.map */
