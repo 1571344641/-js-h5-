@@ -1,32 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aefb00b2-00ab-4d5a-89f2-6134f6b81870" name="默认的" comment="">
-      <change beforePath="$PROJECT_DIR$/assecte/css/left-aside.css" beforeDir="false" afterPath="$PROJECT_DIR$/assecte/css/left-aside.css" afterDir="false" />
+    <list default="true" id="fdf0f9b2-5f61-4bfd-bbff-65af6ab8bde7" name="默认的" comment="">
+      <change beforePath="$PROJECT_DIR$/assecte/css/middle.css" beforeDir="false" afterPath="$PROJECT_DIR$/assecte/css/middle.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assecte/css/middle.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/assecte/css/middle.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assecte/css/middle.less" beforeDir="false" afterPath="$PROJECT_DIR$/assecte/css/middle.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="HTML File" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1fPL5731Tvbr6IUr4zdkBCINo4L" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectId" id="1fV6UqO1WkFZ6EgPtmmUSgLTKXK" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -45,15 +39,13 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="aefb00b2-00ab-4d5a-89f2-6134f6b81870" name="默认的" comment="" />
-      <created>1596114596109</created>
+      <changelist id="fdf0f9b2-5f61-4bfd-bbff-65af6ab8bde7" name="默认的" comment="" />
+      <created>1596290930731</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1596114596109</updated>
-      <workItem from="1596114605037" duration="841000" />
-      <workItem from="1596119109383" duration="397000" />
-      <workItem from="1596161637596" duration="11355000" />
-      <workItem from="1596245270878" duration="5929000" />
+      <updated>1596290930731</updated>
+      <workItem from="1596290933363" duration="61000" />
+      <workItem from="1596334173680" duration="8883000" />
     </task>
     <servers />
   </component>
@@ -61,13 +53,17 @@
     <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="797" y="363" key="EditFileWatcherDialog" timestamp="1596119276223">
+    <state x="414" y="215" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1596349455834">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state x="797" y="363" key="EditFileWatcherDialog/0.40.1920.1040@0.40.1920.1040" timestamp="1596119276223" />
-    <state x="625" y="231" key="SettingsEditor" timestamp="1596119278625">
+    <state x="414" y="215" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.40.1920.1040@0.40.1920.1040" timestamp="1596349455834" />
+    <state x="1022" y="348" key="EditFileWatcherDialog" timestamp="1596349530004">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state x="625" y="231" key="SettingsEditor/0.40.1920.1040@0.40.1920.1040" timestamp="1596119278625" />
+    <state x="1022" y="348" key="EditFileWatcherDialog/0.40.1920.1040@0.40.1920.1040" timestamp="1596349530004" />
+    <state x="461" y="204" key="SettingsEditor" timestamp="1596349532681">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state x="461" y="204" key="SettingsEditor/0.40.1920.1040@0.40.1920.1040" timestamp="1596349532681" />
   </component>
 </project>

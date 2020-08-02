@@ -1,1 +1,77 @@
 //中侧边栏
+aside.middle{
+  min-width: 80px;
+  max-width: 80px;
+  border-top: 10px solid #8c53ff;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05), 1px 0 rgba(0,0,0,0.05), -1px 0 rgba(0,0,0,0.05);
+  .search{
+    margin: 10px;
+    padding: 18px 0;
+    border: 1px solid #eee;
+    border-radius: 10px;
+    text-align: center;
+    color: #333;
+    cursor: pointer;
+    i{
+      font-weight: bold;
+      font-size: 20px;
+      color: #333;
+    }
+  }
+  ul{
+    margin-top: 20px;
+    text-align: center;
+    li{
+      position: relative;
+      margin: 0 20px 4px 20px;
+      padding: 21px 10px;
+      cursor: pointer;
+      &:hover{
+        border-radius: 10px;
+        background-color: rgba(0,0,0,.1);
+      }
+      &:hover:before{
+        opacity: 1;
+      }
+      &:hover i:after{
+        opacity: 1;
+      }
+      i{
+        font-size: 22px;
+        font-weight: 400;
+        &:after{
+          position: absolute;
+          content: "";
+          top: 23px;
+          left: 36px;
+          border: 7px solid transparent;
+          border-right-color: #333;
+          transition: 1s ease;
+          opacity: 0;
+        }
+      }
+      &:before{
+        position: absolute;
+        content: "1571344641@qq.com";
+        top: 16px;
+        left: 50px;
+        padding: 4px 6px;
+        border-radius: 3px;
+        background-color: #333;
+        color: white;
+        transition: 1s ease;
+        opacity: 0;
+      }
+    }
+    .search_a{
+      &::after{
+        position: absolute;
+        content: "";
+        left: 5px;
+        right: 5px;
+        bottom: -3px;
+        border-bottom: 1px solid rgba(0,0,0,.1);
+      }
+    }
+  }
+}
