@@ -32,37 +32,48 @@ aside.middle ul li:hover {
   border-radius: 10px;
   background-color: rgba(0, 0, 0, 0.1);
 }
-aside.middle ul li:hover:before {
-  opacity: 1;
-}
-aside.middle ul li:hover i:after {
-  opacity: 1;
-}
 aside.middle ul li i {
   font-size: 22px;
   font-weight: 400;
 }
-aside.middle ul li i:after {
+aside.middle ul li .bubble {
   position: absolute;
   content: "";
-  top: 23px;
-  left: 36px;
-  border: 7px solid transparent;
-  border-right-color: #333;
-  transition: 1s ease;
-  opacity: 0;
-}
-aside.middle ul li:before {
-  position: absolute;
-  content: "1571344641@qq.com";
   top: 16px;
   left: 50px;
-  padding: 4px 6px;
-  border-radius: 3px;
-  background-color: #333;
+  width: 0;
+  font-size: 18px;
+  letter-spacing: 2px;
   color: white;
-  transition: 1s ease;
+  background-color: #333;
+  border-radius: 3px;
+  transition: 0.3s ease;
+}
+aside.middle ul li .bubble span {
+  display: none;
+}
+aside.middle ul li .bubble a {
+  color: white;
+}
+aside.middle ul li .bubble:before {
+  position: absolute;
+  top: 9px;
+  left: -14px;
+  content: "";
+  border: 7px solid transparent;
+  border-right-color: #333;
   opacity: 0;
+  transition: 0.3s ease;
+}
+aside.middle ul li:hover .bubble {
+  width: auto;
+  padding: 5px;
+}
+aside.middle ul li:hover .bubble:before {
+  opacity: 1;
+}
+aside.middle ul li:hover .bubble > span {
+  display: block;
 }
 aside.middle ul .search_a::after {
   position: absolute;

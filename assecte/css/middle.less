@@ -30,37 +30,48 @@ aside.middle{
         border-radius: 10px;
         background-color: rgba(0,0,0,.1);
       }
-      &:hover:before{
-        opacity: 1;
-      }
-      &:hover i:after{
-        opacity: 1;
-      }
       i{
         font-size: 22px;
         font-weight: 400;
-        &:after{
-          position: absolute;
-          content: "";
-          top: 23px;
-          left: 36px;
-          border: 7px solid transparent;
-          border-right-color: #333;
-          transition: 1s ease;
-          opacity: 0;
-        }
       }
-      &:before{
+      .bubble{
         position: absolute;
-        content: "1571344641@qq.com";
+        content: "";
         top: 16px;
         left: 50px;
-        padding: 4px 6px;
-        border-radius: 3px;
-        background-color: #333;
+        width: 0;
+        font-size: 18px;
+        letter-spacing: 2px;
         color: white;
-        transition: 1s ease;
-        opacity: 0;
+        background-color: #333;
+        border-radius: 3px;
+        transition: .3s ease;
+        span{
+          display: none;
+        }
+        a{
+          color: white;
+        }
+        &:before{
+          position: absolute;
+          top: 9px;
+          left: -14px;
+          content: "";
+          border: 7px solid transparent;
+          border-right-color: #333;
+          opacity: 0;
+          transition: .3s ease;
+        }
+      }
+      &:hover .bubble{
+        width: auto;
+        padding: 5px;
+      }
+      &:hover .bubble:before{
+        opacity: 1;
+      }
+      &:hover .bubble > span{
+        display: block;
       }
     }
     .search_a{

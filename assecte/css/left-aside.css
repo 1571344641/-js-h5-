@@ -31,6 +31,9 @@ aside.left-aside .site-info {
   font-weight: 300;
   color: #888;
 }
+aside.left-aside .self-info ul li {
+  position: relative;
+}
 aside.left-aside .self-info ul li a {
   margin: 0 -50px;
   padding: 16px 0 16px 50px;
@@ -40,6 +43,7 @@ aside.left-aside .self-info ul li a {
   font-weight: bold;
 }
 aside.left-aside .self-info ul li a:hover {
+  transition: 0.3s ease;
   background-color: #f5f5f5;
 }
 aside.left-aside .self-info ul li a i {
@@ -48,6 +52,14 @@ aside.left-aside .self-info ul li a i {
   color: #cacaca;
   vertical-align: middle;
   cursor: pointer;
+}
+aside.left-aside .self-info ul .active:before {
+  position: absolute;
+  content: "";
+  top: 14px;
+  left: -50px;
+  border: 10px solid transparent;
+  border-left-color: #ccc;
 }
 aside.left-aside .self {
   box-sizing: border-box;
