@@ -46,17 +46,26 @@ aside.middle{
         background-color: #333;
         border-radius: 3px;
         transition: .3s ease;
+        z-index: 999;
         span{
           display: none;
+          &::selection{
+            background-color: #fff;
+            color: #444;
+          }
         }
         a{
           display: none;
           color: white;
+          &::selection{
+            background-color: #fff;
+            color: #444;
+          }
         }
         &:before{
           position: absolute;
           top: 9px;
-          left: -14px;
+          left: -13px;
           content: "";
           border: 7px solid transparent;
           border-right-color: #333;

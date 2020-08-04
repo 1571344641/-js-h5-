@@ -48,18 +48,27 @@ aside.middle ul li .bubble {
   background-color: #333;
   border-radius: 3px;
   transition: 0.3s ease;
+  z-index: 999;
 }
 aside.middle ul li .bubble span {
   display: none;
+}
+aside.middle ul li .bubble span::selection {
+  background-color: #fff;
+  color: #444;
 }
 aside.middle ul li .bubble a {
   display: none;
   color: white;
 }
+aside.middle ul li .bubble a::selection {
+  background-color: #fff;
+  color: #444;
+}
 aside.middle ul li .bubble:before {
   position: absolute;
   top: 9px;
-  left: -14px;
+  left: -13px;
   content: "";
   border: 7px solid transparent;
   border-right-color: #333;
