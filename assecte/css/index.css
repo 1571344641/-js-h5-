@@ -103,4 +103,32 @@ main.container {
   border-radius: 10px;
   box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.3);
 }
+::selection {
+  background-color: #444;
+  color: white;
+}
+::-moz-selection {
+  background-color: #444;
+  color: white;
+}
+::-webkit-selection {
+  background-color: #444;
+  color: white;
+}
+.self_a {
+  opacity: 0;
+  transition: 0.2s ease-in;
+}
+.self_b {
+  opacity: 1;
+  transition: 0.2s ease-in;
+}
+.appear {
+  transform: translateX(-100%);
+  transition: 0.4s ease;
+}
+.disappear {
+  transform: translateX(0);
+  transition: 0.4s ease;
+}
 /*# sourceMappingURL=index.css.map */

@@ -2,7 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fdf0f9b2-5f61-4bfd-bbff-65af6ab8bde7" name="默认的" comment="">
-      <change afterPath="$PROJECT_DIR$/assecte/js/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assecte/images/1.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assecte/images/avatar.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assecte/images/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assecte/images/name.PNG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assecte/css/content.css" beforeDir="false" afterPath="$PROJECT_DIR$/assecte/css/content.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assecte/css/content.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/assecte/css/content.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assecte/css/content.less" beforeDir="false" afterPath="$PROJECT_DIR$/assecte/css/content.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assecte/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/assecte/css/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assecte/css/index.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/assecte/css/index.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assecte/css/index.less" beforeDir="false" afterPath="$PROJECT_DIR$/assecte/css/index.less" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assecte/css/left-aside.css" beforeDir="false" afterPath="$PROJECT_DIR$/assecte/css/left-aside.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assecte/css/left-aside.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/assecte/css/left-aside.css.map" afterDir="false" />
@@ -10,6 +18,7 @@
       <change beforePath="$PROJECT_DIR$/assecte/css/middle.css" beforeDir="false" afterPath="$PROJECT_DIR$/assecte/css/middle.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assecte/css/middle.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/assecte/css/middle.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assecte/css/middle.less" beforeDir="false" afterPath="$PROJECT_DIR$/assecte/css/middle.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assecte/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/assecte/js/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -21,11 +30,15 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1fV6UqO1WkFZ6EgPtmmUSgLTKXK" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="新增" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -51,12 +64,16 @@
       <updated>1596290930731</updated>
       <workItem from="1596290933363" duration="61000" />
       <workItem from="1596334173680" duration="10758000" />
-      <workItem from="1596430713265" duration="7588000" />
+      <workItem from="1596430713265" duration="17447000" />
+      <workItem from="1596530816901" duration="8406000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="414" y="215" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1596349455834">
@@ -71,5 +88,9 @@
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
     <state x="461" y="204" key="SettingsEditor/0.40.1920.1040@0.40.1920.1040" timestamp="1596349532681" />
+    <state x="623" y="265" width="672" height="678" key="search.everywhere.popup" timestamp="1596453920012">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state x="623" y="265" width="672" height="678" key="search.everywhere.popup/0.40.1920.1040@0.40.1920.1040" timestamp="1596453920012" />
   </component>
 </project>

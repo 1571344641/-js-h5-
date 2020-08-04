@@ -53,6 +53,7 @@ aside.middle ul li .bubble span {
   display: none;
 }
 aside.middle ul li .bubble a {
+  display: none;
   color: white;
 }
 aside.middle ul li .bubble:before {
@@ -73,6 +74,9 @@ aside.middle ul li:hover .bubble:before {
   opacity: 1;
 }
 aside.middle ul li:hover .bubble > span {
+  display: block;
+}
+aside.middle ul li:hover .bubble > a {
   display: block;
 }
 aside.middle ul .search_a::after {
