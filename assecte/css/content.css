@@ -1,4 +1,5 @@
 section.content {
+  position: relative;
   flex-grow: 1;
   max-width: 60%;
   padding: 40px;
@@ -9,6 +10,7 @@ section.content {
 }
 section.content .self-card {
   display: flex;
+  padding-bottom: 10px;
   max-width: 100%;
   overflow: hidden;
 }
@@ -86,5 +88,41 @@ section.content .self-card .self-info .work-detal p {
 section.content .self-card .self-info .work-detal p svg {
   flex-shrink: 0;
   margin: 5px 5px 0 0;
+}
+section.content .shadle {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+section.content .shadle .circle,
+section.content .shadle .color-circle {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  width: 40px;
+  height: 40px;
+  border: 3px solid white;
+  border-radius: 50%;
+}
+section.content .shadle .color-circle {
+  border-top-color: #32c1fb;
+  animation: round 0.5s ease-in-out infinite;
+}
+@keyframes round {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+section.content .none {
+  display: none;
+}
+section.content .some-none {
+  display: none;
 }
 /*# sourceMappingURL=content.css.map */

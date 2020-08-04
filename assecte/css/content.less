@@ -1,5 +1,6 @@
 //右侧内容
 section.content{
+  position: relative;
   flex-grow: 1;
   max-width: 60%;
   padding: 40px;
@@ -9,6 +10,7 @@ section.content{
   background-color: rgba(245,245,245);
   .self-card{
     display: flex;
+    padding-bottom: 10px;
     max-width: 100%;
     overflow: hidden;
     .brife-intro{
@@ -88,5 +90,40 @@ section.content{
       }
     }
   }
+  }
+  .shadle{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,.8);
+    .circle,.color-circle{
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      margin: auto;
+      width: 40px;
+      height: 40px;
+      border: 3px solid white;
+      border-radius: 50%;
+    }
+    .color-circle{
+      border-top-color: #32c1fb;
+      animation: round .5s ease-in-out infinite;
+      @keyframes round{
+        100%{
+          transform: rotate(360deg);
+        }
+    }
+    }
+  }
+  .none{
+    display: none;
+  }
+  .some-none{
+    display: none;
   }
 }
