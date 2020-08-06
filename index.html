@@ -19,10 +19,40 @@
     <link rel="stylesheet" href="./assecte/css/middle.css">
     <!--  内容区域样式  -->
     <link rel="stylesheet" href="./assecte/css/content.css">
+    <!-- 960px~1100px   -->
+    <link rel="stylesheet" media ="screen and (max-width: 1100px) and (min-width: 960px)" href="./assecte/css/some.css">
+    <!--   960px以下 -->
+    <link rel="stylesheet" media ="screen and (max-width: 959px)" href="./assecte/css/else.css">
+    <!--720以下适用于平板 手机    -->
+<!--    <link rel="stylesheet" media="screen and (max-width: 720px)"  href="./assecte/css/mini.css">-->
 <!--↑↑↑↑↑↑↑↑↑  自定义样式  ↑↑↑↑↑↑↑↑↑-->
 </head>
 <body>
     <main class="container">
+        <!--960px的左侧边栏-->
+        <aside class="little-left">
+            <h1>
+                <img src="./assecte/images/indite-logo.png" alt="">
+            </h1>
+            <p>付出不亚于任何人的努力</p>
+            <nav>
+                <ul>
+                    <li>自我介绍</li>
+                    <li>项目经验</li>
+                    <li>技术栈</li>
+                    <li>获奖经历</li>
+                </ul>
+            </nav>
+            <section class="intruc">
+                <section class="little-avatar">
+                    <img src="./assecte/images/avatar.jpg" alt="">
+                </section>
+                <section class="avatar-font">
+                    <p class="name">张志岳</p>
+                    <p class="font">对任何热爱的事物都要全力以赴!</p>
+                </section>
+            </section>
+        </aside>
         <!--左侧边栏-->
         <aside class="left-aside">
             <h1>
@@ -166,12 +196,14 @@
                         <span>18003644378</span>
                     </section>
                 </li>
-                <li>
-                    <i class="iconfont icon-github"></i>
-                    <section class="bubble">
-                        <a href="https://github.com/1571344641" target="_blank">https://github.com/1571344641</a>
-                    </section>
-                </li>
+                <a href="https://github.com/1571344641" target="_blank">
+                    <li>
+                        <i class="iconfont icon-github"></i>
+                        <section class="bubble">
+                            <a href="https://github.com/1571344641" target="_blank">https://github.com/1571344641</a>
+                        </section>
+                    </li>
+                </a>
             </ul>
         </aside>
         <!--内容区域-->
@@ -183,9 +215,15 @@
                     <img src="./assecte/images/content.jpg" alt="">
                     <h2>对任何热爱的事物都要全力以赴!</h2>
                     <section class="icon-list">
-                        <i class="iconfont icon-rili">1998-11-06</i>
-                        <i class="iconfont icon-weibiaoti-">家乡:甘肃省武威市古浪县</i>
-                        <i class="iconfont icon-weibiaoti-">现居:黑龙江省哈尔滨市</i>
+                        <p>
+                            <i class="iconfont icon-rili">1998-11-06</i>
+                        </p>
+                        <p>
+                            <i class="iconfont icon-weibiaoti-">家乡:甘肃省武威市古浪县</i>
+                        </p>
+                        <p>
+                            <i class="iconfont icon-weibiaoti-">现居:黑龙江省哈尔滨市</i>
+                        </p>
                     </section>
                     <p>
                         1. 企业报告

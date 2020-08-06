@@ -1,7 +1,7 @@
 section.content {
   position: relative;
   flex-grow: 1;
-  max-width: 60%;
+  max-width: 100%;
   padding: 40px;
   border-top: 10px solid #eee;
   border-top-right-radius: 10px;
@@ -19,7 +19,10 @@ section.content .self-card .brife-intro .icon-list {
   justify-content: space-between;
   padding: 0 40px 20px;
 }
-section.content .self-card .brife-intro .icon-list i {
+section.content .self-card .brife-intro .icon-list p {
+  padding: 0;
+}
+section.content .self-card .brife-intro .icon-list p i {
   font-weight: 500;
 }
 section.content .self-card .brife-intro p {
@@ -36,6 +39,7 @@ section.content .self-card article {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 section.content .self-card article img {
+  width: 100%;
   border-top-right-radius: 10px;
   border-top-left-radius: 10px;
 }

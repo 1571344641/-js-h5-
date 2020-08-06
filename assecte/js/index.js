@@ -6,9 +6,11 @@ const list = document.querySelectorAll('.self-info > ul > li')
 const card = document.querySelectorAll('.self-card')
 //遮罩层
 const shadle = document.querySelector('.shadle')
+//960px响应式
+const list_a = document.querySelectorAll('.little-left > nav > ul >li')
 //点击左边的列表改变右边的卡片
-list.forEach((item,index) => {
-    item.addEventListener('click',() => {
+const handle_click = (item,index) =>{
+    item.addEventListener('click', () => {
         //切换小三角
         list[active].classList.toggle('active')
         active = index;
@@ -22,11 +24,14 @@ list.forEach((item,index) => {
         setTimeout(() =>{
             card[cards].style.display = "none"
             cards = index;
+            console.log(index)
             card[cards].style.display = "flex"
 
         },300)
-    })
-});
+    } )
+}
+[].forEach.call(list, handle_click);
+[].forEach.call(list_a, handle_click)
 //点击显示个人经历动画
 const next = document.querySelector('.next')
 const back = document.querySelector('.back')

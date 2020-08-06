@@ -164,4 +164,7 @@ aside.left-aside .search .search-a div .search-b {
   color: #999;
   background: #fff;
 }
+.little-left {
+  display: none;
+}
 /*# sourceMappingURL=left-aside.css.map */

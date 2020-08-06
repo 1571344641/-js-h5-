@@ -2,9 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fdf0f9b2-5f61-4bfd-bbff-65af6ab8bde7" name="默认的" comment="">
+      <change afterPath="$PROJECT_DIR$/assecte/css/else.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assecte/css/else.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assecte/css/else.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assecte/css/mini.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assecte/css/mini.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assecte/css/mini.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assecte/css/some.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assecte/css/some.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assecte/css/some.less" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assecte/css/content.css" beforeDir="false" afterPath="$PROJECT_DIR$/assecte/css/content.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assecte/css/content.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/assecte/css/content.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assecte/css/content.less" beforeDir="false" afterPath="$PROJECT_DIR$/assecte/css/content.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assecte/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/assecte/css/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assecte/css/index.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/assecte/css/index.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assecte/css/index.less" beforeDir="false" afterPath="$PROJECT_DIR$/assecte/css/index.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assecte/css/left-aside.css" beforeDir="false" afterPath="$PROJECT_DIR$/assecte/css/left-aside.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assecte/css/left-aside.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/assecte/css/left-aside.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assecte/css/left-aside.less" beforeDir="false" afterPath="$PROJECT_DIR$/assecte/css/left-aside.less" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assecte/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/assecte/js/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
@@ -53,6 +68,8 @@
       <workItem from="1596334173680" duration="10758000" />
       <workItem from="1596430713265" duration="17447000" />
       <workItem from="1596530816901" duration="8406000" />
+      <workItem from="1596595140879" duration="1340000" />
+      <workItem from="1596698274831" duration="18062000" />
     </task>
     <servers />
   </component>
