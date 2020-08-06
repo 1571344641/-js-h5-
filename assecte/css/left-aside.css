@@ -167,4 +167,15 @@ aside.left-aside .search .search-a div .search-b {
 .little-left {
   display: none;
 }
+.little-left .concat-info {
+  margin-top: 10px;
+  padding-left: 20px;
+}
+.little-left .concat-info i {
+  display: block;
+  line-height: 1.8em;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
 /*# sourceMappingURL=left-aside.css.map */

@@ -1,0 +1,42 @@
+aside.middle {
+  display: none;
+}
+main.container {
+  padding: 0;
+}
+section.content {
+  padding: 40px 0 0 0;
+}
+section.content .self-card .brife-intro .icon-list {
+  display: block;
+}
+.little-left nav ul li {
+  margin: 0;
+}
+.little-left nav ul {
+  width: 100vw;
+  margin-left: -50px;
+  justify-content: space-around;
+}
+section.content .self-card .self-info .some-info {
+  display: block;
+  line-height: 1.8em;
+}
+section.content .self-card article h2 {
+  padding: 40px 15px 20px 15px;
+  font-size: 24px;
+  text-align: center;
+}
+section.content .self-card .brife-intro p {
+  padding: 0 15px 10px;
+}
+.little-left .avatar-font {
+  padding-left: 60px;
+}
+.little-left .little-avatar {
+  flex-shrink: 0;
+}
+.little-left {
+  display: block;
+}
+/*# sourceMappingURL=mini.css.map */
